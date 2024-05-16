@@ -30,7 +30,7 @@ cd TwoBody-Orbit-Simulator-Using-RK4
 ```
 ## Run the script
 ```bash
-python src/orbit_simulation.py
+python main.py
 ```
 ## Enter Initial Conditions: When prompted, enter the initial position (x, y in meters), velocity (x, y in meters/second), and the initial time (in seconds).
 ```bash
@@ -46,20 +46,9 @@ Enter the initial time (in seconds): 0
 - The script saves the output data (time, x, y) to `orbit_output.txt` and `orbit_output_dynamic.txt`.
 - An animated plot shows the trajectory of the orbiting body.
 
-![Animated Plot](assets/output_simulation.gif)
+![Animated Plot](result.gif)
 
 
-## Repository Structure 
-- `src/`: Contains the Python script for the simulator implementation.
-- `data/`: Stores the output data files generated during simulations .
-- `docs/`: Contains additional documentation or project-related materials.
-
-## Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## Acknowledgements
-Inspired by the principles of orbital mechanics and numerical methods.
-Special thanks to the open-source community for their invaluable tools and resources.
 
 
 
