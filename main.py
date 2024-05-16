@@ -64,14 +64,14 @@ r_traj = output_data[:, 1:3]
 fig, ax = plt.subplots(figsize=(10, 10))
 
 # Load Earth image
-earth_img_path = 'C:/Users/Noha/Downloads/RK4-Orbiting-Satellite-master/RK4-Orbiting-Satellite-master/earth.png'
+earth_img_path = 'path to earth.png file '
 earth_img = plt.imread(earth_img_path)
 earth_marker = OffsetImage(earth_img, zoom=0.1)
 earth_ab = AnnotationBbox(earth_marker, (0, 0), frameon=False)
 ax.add_artist(earth_ab)
 
 # Load orbiting body icon
-orbiting_body_img_path = 'C:/Users/Noha/Downloads/RK4-Orbiting-Satellite-master/RK4-Orbiting-Satellite-master/sat.png'
+orbiting_body_img_path = 'path to sat.png file '
 orbiting_body_img = plt.imread(orbiting_body_img_path)
 orbiting_body_marker = OffsetImage(orbiting_body_img, zoom=0.02)
 orbiting_body_ab = AnnotationBbox(orbiting_body_marker, (r_traj[0][0], r_traj[0][1]), frameon=False)
