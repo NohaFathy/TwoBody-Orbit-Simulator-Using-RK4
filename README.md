@@ -1,4 +1,4 @@
-# TwoBody-Orbit-Simulator-Using-RK4
+# TwoBody-Orbit-Simulator-Using-Runge Kutta Fourth Order(RK4)
 
 This repository contains a Python-based orbital dynamics simulator that models the motion of two bodies under gravitational influence using the Runge-Kutta 4th order (RK4) method. The simulator enables the exploration and visualization of various two-body systems, such as planets and their moons, satellites around celestial bodies, or spacecraft in orbital trajectories.
 
