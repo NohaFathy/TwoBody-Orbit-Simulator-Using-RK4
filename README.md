@@ -41,7 +41,7 @@ Enter the initial y velocity (in meters/second): 800
 Enter the initial time (in seconds): 0
 ```
 
-### Output
+## Output
 
 - The script saves the output data (time, x, y) to `orbit_output.txt` and `orbit_output_dynamic.txt`.
 - An animated plot shows the trajectory of the orbiting body.
