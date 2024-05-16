@@ -51,8 +51,8 @@ Enter the initial time (in seconds): 0
 
 ## Repository Structure 
 - `src/`: Contains the Python script for the simulator implementation.
-- `data/`: Stores the output data files generated during simulations (if you choose to add this directory).
-- `docs/`: Contains additional documentation or project-related materials (if you choose to add this directory)
+- `data/`: Stores the output data files generated during simulations .
+- `docs/`: Contains additional documentation or project-related materials.
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
