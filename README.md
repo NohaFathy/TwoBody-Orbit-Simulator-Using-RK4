@@ -46,7 +46,7 @@ Enter the initial time (in seconds): 0
 - The script saves the output data (time, x, y) to `orbit_output.txt` and `orbit_output_dynamic.txt`.
 - An animated plot shows the trajectory of the orbiting body.
 
-![Animated Plot](result.gif)
+![Animated Plot](output_simulation.gif)
 
 
 
