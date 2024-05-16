@@ -45,12 +45,7 @@ Enter the initial time (in seconds): 0
 - The script saves the output data (time, x, y) to `orbit_output.txt` and `orbit_output_dynamic.txt`.
 - An animated plot shows the trajectory of the orbiting body.
 
-## Resources
 
- `[https://en.wikipedia.org/wiki/Runge%E2%80%93Kutta_methods](URL)`Runge-Kutta methods - Overview of Runge-Kutta numerical integration methods.
-Orbital Mechanics - Fundamental principles of orbital mechanics.
-Python Numpy Library - Essential package for scientific computing with Python.
-Matplotlib - Comprehensive library for creating static, animated, and interactive visualizations in Python.
 
 
 
