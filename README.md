@@ -9,7 +9,7 @@ This repository contains a Python-based orbital dynamics simulator that models t
 - **Animated Visualization**: Visualize the orbits of the bodies with animated plots, providing insight into their dynamic behavior over time.
 - **Data Output**: Output position and time data at each simulation step for further analysis and processing.
 
-## Usage
+<img src="output_simulation.gif" width="100%" height="100%">
 
 ### Prerequisites
 
@@ -40,13 +40,11 @@ Enter the initial x velocity (in meters/second): 0
 Enter the initial y velocity (in meters/second): 800
 Enter the initial time (in seconds): 0
 ```
-
 ## Output
 
 - The script saves the output data (time, x, y) to `orbit_output.txt` and `orbit_output_dynamic.txt`.
 - An animated plot shows the trajectory of the orbiting body.
 
-<img src="output_simulation.gif" width="100%" height="100%">
 
 
 
